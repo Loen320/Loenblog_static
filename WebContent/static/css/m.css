@@ -18,7 +18,7 @@ header { width: 100%; margin: auto; }
 .nav li a { padding: 0 15px }
 .search_bar { display: none }
 article { width: 90%; margin: 100px auto 0 }
-.fader { padding-top: 0; height: 337px }
+.fader { padding-top: 0; height: 337px; }
 .imginfo { bottom: 15% }
 .toppic li i img { height: 160px; }
 .gd { width: 220px }
