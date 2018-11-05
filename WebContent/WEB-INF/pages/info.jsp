@@ -1,3 +1,4 @@
+<%@page import="java.util.jar.Attributes.Name"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -12,6 +13,11 @@
 <script src="static/js/jquery.easyfader.min.js"></script>
 <script src="static/js/scrollReveal.js"></script>
 <script src="static/js/common.js"></script>
+<script type="text/javascript">
+   function name() {
+    return 12;	
+}
+</script>
 </head>
 <body>
 <%@include file="header.jsp" %> 

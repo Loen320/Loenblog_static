@@ -25,6 +25,15 @@
     </init-param>
   </filter>
 
+  <filter>
+  	<filter-name>EncodingFilter</filter-name>
+  	<filter-class>lovedo.top.filter.EncodingFilter</filter-class><!--全路径 从根包开始一直到类名-->
+  </filter>
+  <filter-mapping>
+  	<filter-name>EncodingFilter</filter-name>
+  	<url-pattern>/*</url-pattern> <!--*即为过滤所有-->
+  </filter-mapping>
+
   <filter-mapping>
     <filter-name>encoding</filter-name>
     <url-pattern>/*</url-pattern>
@@ -41,5 +50,50 @@
   <servlet-mapping>
     <servlet-name>myblog</servlet-name>
     <url-pattern>/</url-pattern>
+  </servlet-mapping>
+  
+  <!--登录、注册等配置  -->
+  <servlet><!--servlet类路径配置-->
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>lovedo.top.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>lovedo.top.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SearchallServlet</servlet-name>
+    <servlet-class>lovedo.top.servlet.SearchallServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteServlet</servlet-name>
+    <servlet-class>lovedo.top.servlet.DeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateServlet</servlet-name>
+    <servlet-class>lovedo.top.servlet.UpdateServlet</servlet-class>
+  </servlet>
+ 
+ 
+ 
+  <servlet-mapping><!--servlet类映射配置-->
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchallServlet</servlet-name>
+    <url-pattern>/SearchallServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteServlet</servlet-name>
+    <url-pattern>/DeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateServlet</servlet-name>
+    <url-pattern>/UpdateServlet</url-pattern>
   </servlet-mapping>
 </web-app>

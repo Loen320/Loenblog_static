@@ -1,31 +1,31 @@
 @charset "gb2312";
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
 header { width: 100%; margin: auto; }
-.nav { width: 90% }
-.nav li a { padding: 0 15px }
-.search_bar { display: none }
-article { width: 90%; margin: 100px auto 0 }
-.fader { padding-top: 0; height: 360px }
-.imginfo { bottom: 15% }
+.nav { width: 90% ;}
+.nav li a { padding: 0 15px ;}
+.search_bar { display: none ;}
+article { width: 90%; margin: 100px auto 0 ;}
+.fader { padding-top: 0; height: 360px ;}
+.imginfo { bottom: 15% ;}
 .toppic li i img { height: 170px; }
-.gd { width: 230px }
+.gd { width: 230px ;}
 .container { width: 90%; margin: 20px auto; }
 .share ul li i { }
 }
 @media screen and (min-width: 960px) and (max-width: 1023px) {
 header { width: 100%; margin: auto; }
 .nav { width: 90% }
-.nav li a { padding: 0 15px }
-.search_bar { display: none }
-article { width: 90%; margin: 100px auto 0 }
+.nav li a { padding: 0 15px ;}
+.search_bar { display: none ;}
+article { width: 90%; margin: 100px auto 0 ;}
 .fader { padding-top: 0; height: 337px; }
-.imginfo { bottom: 15% }
+.imginfo { bottom: 15% ;}
 .toppic li i img { height: 160px; }
 .gd { width: 220px }
-.zhuanti p { top: 20% }
+.zhuanti p { top: 20% ;}
 .container { width: 90%; margin: 20px auto; }
 .share ul li i { }
-.timebox li:hover a { padding: 0 30px }
+.timebox li:hover a { padding: 0 30px ;}
 }
 @media screen and (min-width: 768px) and (max-width: 959px) {
 header, .blogsbox { width: 100%; margin: auto; }
